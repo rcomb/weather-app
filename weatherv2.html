@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="weatherIcons.css">
+    <style media="screen">
+    body{
+      background-size:cover;
+    }
+    div{
+      margin-top: 20px;
+      padding-top: 20px;
+      background-color:  black;
+      opacity: .8;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .form-control {
+      margin-bottom: 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="text-center">
+  <input type="text" placeholder="Enter zip code" class="form-control"></input>
+<button type="submit" class="btn btn-info">Find my weather</button></div>
+<div>
+  <h1>Weather</h1>
+<ul class ="list-unstyled">
+  <li class ="btn btn-success" id="city"></li>
+  <li class ="btn btn-success" id = "weatherType"></li>
+  <li class ="btn btn-success" id="fTemp"></li>
+  <li class ="btn btn-success" id = "windSpeed"></li>
+</ul>
+</div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="weatherv2.js"></script>
+  </body>
+</html>
